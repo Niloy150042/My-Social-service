@@ -1,0 +1,159 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/z58tr6k/Health.png",
+      "title": "clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF",
+      "card_bg": "#0052ff33",
+      "text_color": "#0052FF",
+      "button_bg": "#0052ff33",
+      "description": "Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 499.99
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/FHCshhn/Food.png",
+      "title": "Better food for everyone",
+      "category": "food",
+      "category_bg": "#F87147",
+      "card_bg": "#f8714726",
+      "text_color": "#F87147",
+      "button_bg": "#f8714726",
+      "description": "Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 299.99
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/VvmFRTs/Clothing.png",
+      "title": "Used clothing drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F",
+      "card_bg": "#79c23f26",
+      "text_color": "#79C23F",
+      "button_bg": "#79c23f26",
+      "description": "Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 199.99
+    },
+  {
+      "id": 4,
+      "picture": "https://i.ibb.co/MSsj3kV/Education.png",
+      "title": "Education for child",
+      "category": "Education",
+      "category_bg": "#FF444A",
+      "card_bg": "#ff444a26",
+      "text_color": "#FF444A",
+      "button_bg": "#ff444a26",
+      "description": "Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 199.99
+    },
+  
+  {
+      "id": 5,
+      "picture": "https://i.ibb.co/VvmFRTs/Clothing.png",
+      "title": "Used clothing drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F",
+      "card_bg": "#79c23f26",
+      "text_color": "#79C23F",
+      "button_bg": "#79c23f26",
+      "description": "Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 199.99
+    },
+  
+  
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/FHCshhn/Food.png",
+      "title": "Better food for everyone",
+      "category": "food",
+      "category_bg": "#F87147",
+      "card_bg": "#f8714726",
+      "text_color": "#F87147",
+      "button_bg": "#f8714726",
+      "description":"Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 299.99
+    },
+  
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/MSsj3kV/Education.png",
+        "title": "Education for child",
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#ff444a26",
+        "text_color": "#FF444A",
+        "button_bg": "#ff444a26",
+        "description":"Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+        "price": 199.99
+      },
+    
+  {
+      "id": 8,
+      "picture": "https://i.ibb.co/FHCshhn/Food.png",
+      "title": "Better food for everyone",
+      "category": "food",
+      "category_bg": "#F87147",
+      "card_bg": "#f8714726",
+      "text_color": "#F87147",
+      "button_bg": "#f8714726",
+      "description": "Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 299.99
+    },
+  
+  
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/z58tr6k/Health.png",
+      "title": "clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF",
+      "card_bg": "#0052ff33",
+      "text_color": "#0052FF",
+      "button_bg": "#0052ff33",
+      "description":"Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 499.99
+    },
+  
+  
+  {
+      "id": 10,
+      "picture": "https://i.ibb.co/VvmFRTs/Clothing.png",
+      "title": "Used clothing drive",
+      "category": "clothing",
+      "category_bg": "#79C23F",
+      "card_bg": "#79c23f26",
+      "text_color": "#79C23F",
+      "button_bg": "#79c23f26",
+      "description": "Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 199.99
+    },
+  
+  {
+      "id": 11,
+      "picture": "https://i.ibb.co/FHCshhn/Food.png",
+      "title": "Better food for everyone",
+      "category": "food",
+      "category_bg": "#F87147",
+      "card_bg": "#f8714726",
+      "text_color": "#F87147",
+      "button_bg": "#f8714726",
+      "description": "Clean water is of paramount importance for numerous reasons, and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems, and the planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 298.99
+    },
+  
+   {
+      "id": 12,
+      "picture": "https://i.ibb.co/z58tr6k/Health.png",
+      "title": "clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF",
+      "card_bg": "#0052ff33",
+      "text_color": "#0052FF",
+      "button_bg": "#0052ff33",
+      "description": "Clean water is of paramount importance for numerou and its availability and quality have far-reaching impacts on various aspects of human lifeecosystems planet as a whole. Here are some key reasons highlighting the importance of clean water",
+      "price": 497.99
+    }
+  
+  ]
+  
