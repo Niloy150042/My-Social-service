@@ -9,7 +9,7 @@ const Card = ({card}) => {
 
     return (
       <Link to={`/card/${id}`}>
-        {/* <div style={{background:`${card_bg}`}} className="bg-base-100 shadow-xl p-3 rounded">
+        <div style={{background:`${card_bg}`}} className="bg-base-100 shadow-xl p-3 rounded">
   <figure className="text-center"><img src={picture} alt="Shoes"/></figure>
   <div className="mt-2">
     <button style={{color:`${category_bg}`, background:`${button_bg}`}} className="card-title p-2 rounded mb-3 ">{category}</button>
@@ -19,7 +19,7 @@ const Card = ({card}) => {
     
   </div>
   
-</div> */}
+</div>
       </Link>
     );
 };
