@@ -16,9 +16,9 @@ const Cards = () => {
 
     return (
         <div className="mt-20 card bg-base-100 shadow-xl grid lg:grid-cols-4 md:grid-cols-2 gap-4">
-            {/* {
+            {
                 cards?.map(card=> <Card key={card.id} card={card}></Card>)
-            } */}
+            }
         </div>
     );
 };
