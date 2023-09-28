@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Selected_card = () => {
   const [card, setselectedcard] = useState();
@@ -9,7 +11,7 @@ const Selected_card = () => {
   const cards = useLoaderData();
 
   useEffect(() => {
-    const selectcard = cards.find((card) => card.id === Number(id));
+    const selectcard = cards?.find((card) => card.id === Number(id));
     setselectedcard(selectcard);
   }, [id, cards]);
   const { title, price, text_color, picture, description } = card || {};
@@ -23,19 +25,43 @@ const Selected_card = () => {
     if (!items) {
       donateditems.push(card);
       localStorage.setItem("favourites", JSON.stringify(donateditems));
-      alert("product added");
-    } 
-    else {
-      const isexist = items.find((item) => item.id == id);
+      toast.success('product addeded.', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        });
+    } else {
+      const isexist = items?.find((item) => item.id == id);
 
       if (!isexist) {
-        donateditems.push(...items, card);
+        donateditems?.push(...items, card);
         localStorage.setItem("favourites", JSON.stringify(donateditems));
-        alert("product added");
-      } 
-
-      else {
-        alert("already addeded");
+        toast.success('product addeded!', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+          });
+      } else {
+        toast.error('already addeded!', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+          });
       }
     }
   };
@@ -59,6 +85,20 @@ const Selected_card = () => {
         <h2 className="card-title text-4xl font-bold py-4">{title}</h2>
         <p className="text-gray-500">{description}</p>
       </div>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
+      {/* Same as */}
+      <ToastContainer />
     </div>
   );
 };

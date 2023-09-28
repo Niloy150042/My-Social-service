@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
           <ul className="flex gap-10">
             <NavLink
-              to="/home"
+              to="/"
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-red-600 underline" : ""
               }

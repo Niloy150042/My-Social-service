@@ -16,7 +16,7 @@ const myroute= createBrowserRouter([
       children:[
 
         {
-            path:'/home',
+            path:'/',
             element:<Home></Home>
             
         },
@@ -31,7 +31,7 @@ const myroute= createBrowserRouter([
        {
          path:'/card/:id',
          element:<Selected_card></Selected_card>,
-         loader: ()=> fetch('/public/data.json')
+         loader: ()=> fetch('/data.json')
 
         
 
