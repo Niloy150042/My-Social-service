@@ -11,6 +11,7 @@ const Selected_card = () => {
   const cards = useLoaderData();
 
   useEffect(() => {
+
     const selectcard = cards?.find((card) => card.id === Number(id));
     setselectedcard(selectcard);
   }, [id, cards]);
@@ -25,16 +26,7 @@ const Selected_card = () => {
     if (!items) {
       donateditems.push(card);
       localStorage.setItem("favourites", JSON.stringify(donateditems));
-      toast.success('product addeded.', {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "colored",
-        });
+      
     } else {
       const isexist = items?.find((item) => item.id == id);
 
@@ -51,7 +43,8 @@ const Selected_card = () => {
           progress: undefined,
           theme: "colored",
           });
-      } else {
+      }
+       else {
         toast.error('already addeded!', {
           position: "top-right",
           autoClose: 5000,
